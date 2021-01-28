@@ -26,13 +26,13 @@ class Ship {
   }
 
   boost() {
-    var force = p5.Vector.fromAngle(this.heading);
+    let force = p5.Vector.fromAngle(this.heading);
     force.mult(0.1);
     this.vel.add(force);
   }
 
   hits(asteroid) {
-    var d = dist(this.pos.x, this.pos.y, asteroid.pos.x, asteroid.pos.y);
+    let d = dist(this.pos.x, this.pos.y, asteroid.pos.x, asteroid.pos.y);
     if (d < this.r + asteroid.r) {
       return true;
     } else {
