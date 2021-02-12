@@ -1,3 +1,2 @@
 # Asteroid-Game
-
- - [Asteroids](YouTube_Asteroid/asteroidside.html)
+ - [Asteroids](YouTube_Asteroid/index.html)
