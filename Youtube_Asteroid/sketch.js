@@ -24,6 +24,7 @@ function lydFejl(){
 } 
 
 function lydSuccess() {
+  //musik.volume(0.5);
   musik.play();
 }
 
